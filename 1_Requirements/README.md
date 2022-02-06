@@ -1,5 +1,5 @@
 # Description
-Designing or estimating the parameters of various DC-DC converters (buck converter, boost converter and buck-boost converter) based on their input voltage and output voltage which allows the users to analyse all the design considerations of the three converters in a single program
+Designing or estimating the parameters of various DC-DC converters (buck converter, boost converter and buck-boost converter) based on their input voltage and output voltage which allows the users to analyse all the design considerations of the three converters in a single program.
 
 ## Highlevel Requirements
 * Classifying  the converter based on the input and output voltage that is, whether it is a buck, boost or buck-boost converter.
@@ -13,18 +13,19 @@ Designing or estimating the parameters of various DC-DC converters (buck convert
 * Verifying the current ripple using maximum and minimum inductor current.
 
 # SWOT Analysis
-## Strength
+## Strengths
 * Making the design process easy for a designer.
 * Bringing together the design process of all the converters in one compacted  program, insted of having a seperate design file for each  converter.
 * Can be generalized to different converter by changing the basic formulas. 
 
 ## Weakness
 * Has to take in many inputs.
+* Should be carefull about the formulas.
 
 ## Opportunities
-* This simple program can replace a huge design file.
+* This simple program can replace a huge design file(excel Sheet).
 * Has a huge opportunities in power electronics domain.
 
 ## Threats
-* A slight change in formula may lead to a huge problem.
+* A slight change in formulas may lead to a huge problem.
 
