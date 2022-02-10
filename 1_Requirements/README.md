@@ -29,3 +29,16 @@ Designing or estimating the parameters of various DC-DC converters (buck convert
 ## Threats
 * A slight change in formulas may lead to a huge problem.
 
+
+
+## 4W and 1H
+
+* It is aplicable in power electronics industries while desigining DC-DC Converters.
+* It is also usefull while desigining  charges for EV Application and other small level application also.
+
+* This project is done inorder to replace the design file. (i.e an Excel sheet)
+
+* This is usefull while desigining a DC-DC converter to calculate parameters.
+* This is also used  while simulation and verificatin of the simulation result.
+
+* This is done by taking into considration of the all the formulas of the Converters
