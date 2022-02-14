@@ -14,7 +14,7 @@ struct parameters
   float D;			//duty ratio
 };
 
-main ()
+int main ()
 {
   struct parameters bb, bc, bs, p;
   float vo, vin;

@@ -1,5 +1,5 @@
 #include "converter.h"
-main ()
+int main ()
 {
   struct parameters bb, bc, bs, p;
   float vo, vin;
