@@ -13,32 +13,13 @@ Designing or estimating the parameters of various DC-DC converters (buck convert
 * Verifying the current ripple using maximum and minimum inductor current.
 
 # SWOT Analysis
-## Strengths
-* Making the design process easy for a designer.
-* Bringing together the design process of all the converters in one compacted  program, insted of having a seperate design file for each  converter.
-* Can be generalized to different converter by changing the basic formulas. 
+![SWOT](https://user-images.githubusercontent.com/98839182/155742384-b92ec9a8-6239-4a71-9bbb-1bd556ca8b66.PNG)
 
-## Weakness
-* Has to take in many inputs.
-* Should be carefull about the formulas.
 
-## Opportunities
-* This simple program can replace a huge design file(excel Sheet).
-* Has a huge opportunities in power electronics domain.
+# 4W's and 1H analysis
 
-## Threats
-* A slight change in formulas may lead to a huge problem.
+![4w_1h](https://user-images.githubusercontent.com/98839182/155742412-07ed30c1-ee35-4099-86e0-b60f6d9adbd9.PNG)
 
 
 
-## 4W and 1H
 
-* It is aplicable in power electronics industries while desigining DC-DC Converters.
-* It is also usefull while desigining  charges for EV Application and other small level application also.
-
-* This project is done inorder to replace the design file. (i.e an Excel sheet)
-
-* This is usefull while desigining a DC-DC converter to calculate parameters.
-* This is also used  while simulation and verificatin of the simulation result.
-
-* This is done by taking into considration of the all the formulas of the Converters
