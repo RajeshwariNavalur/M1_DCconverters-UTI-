@@ -7,7 +7,7 @@
 
 
 //include files
-#include<stdio.h>
+#include <stdio.h>
 
 // structure declarations
 struct parameters
@@ -16,8 +16,8 @@ struct parameters
   float L;			// Inductor Value
   float C;			//capacitor value
   float Il;			//Inductor current
-  float Ilmax;			//maximum Inductor current
-  float Ilmin;			//minimum Inductor current
+  float Ilmax;		//maximum Inductor current
+  float Ilmin;		//minimum Inductor current
   float D;			//duty ratio
 };
 
@@ -29,5 +29,9 @@ struct parameters Buck_converter (float vin, float vo);
  struct parameters BuckBoost_converter(float vin, float vo );
 
  void display (float vin, float vo, struct parameters p);
+ float D_bc(float vin, float vo);
+ float D_bs(float vin, float vo);
+ float D_bb(float vin, float vo);
+
 
  #endif 

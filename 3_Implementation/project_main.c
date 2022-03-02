@@ -3,7 +3,7 @@ int main ()
 {
   struct parameters bb, bc, bs, p;
   float vo, vin;
-  int o;
+  int o,d;
   printf ("Enter Input voltage Value");
   scanf ("%f", &vin);
   printf ("Enter output voltage Value");
@@ -16,9 +16,11 @@ int main ()
       switch (o)
 	{
 	case 1: Buck_converter (vin, vo);
+          d= D_bc( vin, vo);
 	  break;
 
 	case 2: BuckBoost_converter (vin, vo);
+  d= D_bb( vin, vo);
 	  break;
 	default:
 	  printf ("invalid choice");
@@ -31,9 +33,12 @@ int main ()
         switch(o)
         {
             case 1: Boost_converter(vin,vo);
+            d= D_bs( vin, vo);
             break;
 
             case 2: BuckBoost_converter(vin,vo);
+            d= D_bb( vin, vo);;
+
             break;
             default: printf("invalid choice");
         }
