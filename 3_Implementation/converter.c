@@ -19,13 +19,13 @@ struct parameters Buck_converter (float vin, float vo)
     bc.L=(vo*(1-(bc.D))*(bc.R))/( (  vo-((bc.R)*(bc.Ilmin))  )*2*f );
     bc.Ilmax= bc.Il + (vo*(1-bc.D)/(bc.L * f* 2));
     bc.C=(1-bc.D)/(8*bc.L*(dvo/vo)*f*f);
-   display (vin, vo, bc);
+    display (vin, vo, bc);
 return bc;
  }
 
  struct parameters Boost_converter(float vin, float vo )
 {
-    float io, f, dvo;
+  float io, f, dvo;
   struct parameters bs;
   float io,f,dvo;
     printf("Enter output current Value , frequency and ripple voltage(delta vo)");
@@ -34,7 +34,7 @@ return bc;
     scanf("%f", &dvo);
   
 
-      bs.D= 1-(vin/vo);
+    bs.D= 1-(vin/vo);
     bs.R=vo/io;
     bs.Il=vo*io/vin;
     bs.L=bs.R*(bs.D)*(1-(bs.D))*(1-(bs.D))/(2*f);
@@ -47,7 +47,7 @@ return bs;
  }
 struct parameters BuckBoost_converter(float vin, float vo )
 {
-   struct parameters bb;
+    struct parameters bb;
     float io,f,dvo;
     printf("Enter output current Value , frequency and ripple voltage(delta vo)");
     scanf("%f", &io);
@@ -60,7 +60,7 @@ struct parameters BuckBoost_converter(float vin, float vo )
     bb.Ilmin = ((vin*(bb.D) )/((bb.R)*(1-(bb.D))*(1-(bb.D)))) - ( (vin* (bb.D))/(2*(bb.L) * f) );
     bb.Ilmax = ((vin*(bb.D) )/((bb.R)*(1-(bb.D))*(1-(bb.D)))) + ( (vin* (bb.D))/(2*(bb.L) * f) );
     bb.C= (bb.D)/ ((bb.R)* f * (dvo/vo));
-  display (vin, vo, bb);
+   display (vin, vo, bb);
 return bb;
 };
 
@@ -84,7 +84,7 @@ float D_bc(float vin, float vo)
 }
 float D_bs(float vin, float vo)
 {
- int d=1-( vin/vo);
+ int d=1-(vin/vo);
  return d;
 }
 

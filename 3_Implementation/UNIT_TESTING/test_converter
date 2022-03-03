@@ -9,28 +9,35 @@ void tearDown()
 {
 }
 
-void test_dutyratio()
+void test_dutyratio_buck()
 {
+    TEST_ASSERT_EQUAL(0.4, D_bc(50, 20) );
+    TEST_ASSERT_EQUAL(0.375, D_bc(48, 18) );
+    TEST_ASSERT_EQUAL(0.364, D_bc(3.3, 1.2) );
+}
 
-   
-
-    TEST_ASSERT_EQUAL(0.4,D_bc(50, 20) );
+void test_dutyratio_boost()
+{
     TEST_ASSERT_EQUAL(0.6,D_bs(12, 30) );
-    TEST_ASSERT_EQUAL(0.4,D_bb(24, 16) );
-
+    TEST_ASSERT_EQUAL(0.663,D_bs(2.7, 8) );
 }
 
-
-void test_complex_add()
+void test_dutyratio_buckboost()
 {
-    //TODO Logic
+    TEST_ASSERT_EQUAL(0.4,D_bb(24, 16) );
+    TEST_ASSERT_EQUAL(0.714,D_bb(12, 30) );
 }
+
+
+
 
 int test_main()
 {
     /* Initiate the Unity Test Framework */
     UNITY_BEGIN();
-     RUN_TEST(test_dutyratio);
+     RUN_TEST(test_dutyratio_buck);
+     RUN_TEST(test_dutyratio_boost);
+     RUN_TEST(test_dutyratio_buckboost);
 
   
 
