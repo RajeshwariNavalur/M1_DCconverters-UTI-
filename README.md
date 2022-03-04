@@ -6,6 +6,7 @@
 ## Codiga
 * https://api.codiga.io/project/31578/score/svg
 * https://api.codiga.io/project/31578/status/svg 
+* (click on link for badge)
 
 ## static check (cppcheck)
 [![cppcheck](https://github.com/RajeshwariNavalur/M1_DCconverters-UTI-/actions/workflows/check.yml/badge.svg)](https://github.com/RajeshwariNavalur/M1_DCconverters-UTI-/actions/workflows/check.yml)
