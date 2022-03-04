@@ -1,6 +1,24 @@
 #  Description
 Designing or estimating the parameters of various DC-DC converters (buck converter, boost converter and buck-boost converter) based on their input voltage and output voltage which allows the users to analyse all the design considerations of the three converters in a single program.
 
+
+## High level requirements
+| ld | Description | Category |Status|
+| --- | --- | --- | --- |
+| HLR1 | Classifying  the converter based on the input and output voltage that is, whether it is a buck, boost or buck-boost converter.| Technical | Implemented |
+| HLR2| Calculating the duty ratio. | Technical | Implemented |
+| HLR3 | Calculating the design parameters such as resistor, inductor and capacitor values. | Technical | Implemented |
+
+
+ ## Low level requirements
+| ld | Description | Category |Status|
+| --- | --- | --- | --- |
+| LLR1 | Mapping the formulas based on the type of converter. | Technical | Implemented |
+| LLR2 | Calculating inductor current which is  further used to calculate resistor, inductor and capacitor values. | Technical | Implemented |
+| LLR3 | Determining maximum and minimum inductor current.age | Technical | Implemented |
+| LLR4 |  Verifying the current ripple using maximum and minimum inductor current. Technical | Implemented |
+ 
+
 ## Highlevel Requirements
 * Classifying  the converter based on the input and output voltage that is, whether it is a buck, boost or buck-boost converter.
 * Calculating the duty ratio.
