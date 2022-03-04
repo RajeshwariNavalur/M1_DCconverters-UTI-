@@ -9,7 +9,7 @@
 * (click on link for badge)
 
 ## static check (cppcheck)
-[![cppcheck](https://github.com/RajeshwariNavalur/M1_DCconverters-UTI-/actions/workflows/check.yml/badge.svg)](https://github.com/RajeshwariNavalur/M1_DCconverters-UTI-/actions/workflows/check.yml)
+[![cppcheck](https://github.com/RajeshwariNavalur/M1_DCconverters-UTI-/actions/workflows/Static-check.yml/badge.svg)](https://github.com/RajeshwariNavalur/M1_DCconverters-UTI-/actions/workflows/Static-check.yml)
 
 
 ## Codiga screenshort
