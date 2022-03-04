@@ -16,19 +16,9 @@ Designing or estimating the parameters of various DC-DC converters (buck convert
 | LLR1 | Mapping the formulas based on the type of converter. | Technical | Implemented |
 | LLR2 | Calculating inductor current which is  further used to calculate resistor, inductor and capacitor values. | Technical | Implemented |
 | LLR3 | Determining maximum and minimum inductor current.age | Technical | Implemented |
-| LLR4 |  Verifying the current ripple using maximum and minimum inductor current. Technical | Implemented |
+| LLR4 |  Verifying the current ripple using maximum and minimum inductor current.| Technical | Implemented |
  
 
-## Highlevel Requirements
-* Classifying  the converter based on the input and output voltage that is, whether it is a buck, boost or buck-boost converter.
-* Calculating the duty ratio.
-* Calculating the design parameters such as resistor, inductor and capacitor values.
-
-## Lowlevel Requirements
-* Mapping the formulas based on the type of converter.
-* Calculating inductor current which is  further used to calculate resistor, inductor and capacitor values.
-* Determining maximum and minimum inductor current.
-* Verifying the current ripple using maximum and minimum inductor current.
 
 ## SWOT Analysis
 ![SWOT](https://user-images.githubusercontent.com/98839182/155742384-b92ec9a8-6239-4a71-9bbb-1bd556ca8b66.PNG)
