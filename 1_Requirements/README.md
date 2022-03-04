@@ -15,7 +15,7 @@ Designing or estimating the parameters of various DC-DC converters (buck convert
 | --- | --- | --- | --- |
 | LLR1 | Mapping the formulas based on the type of converter. | Technical | Implemented |
 | LLR2 | Calculating inductor current which is  further used to calculate resistor, inductor and capacitor values. | Technical | Implemented |
-| LLR3 | Determining maximum and minimum inductor current.age | Technical | Implemented |
+| LLR3 | Determining maximum and minimum inductor current.| Technical | Implemented |
 | LLR4 |  Verifying the current ripple using maximum and minimum inductor current.| Technical | Implemented |
  
 
