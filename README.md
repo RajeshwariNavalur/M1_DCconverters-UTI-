@@ -6,5 +6,4 @@
 
 
 
-## static check (cppcheck)
-[![cppcheck](https://github.com/RajeshwariNavalur/M1_DCconverters-UTI-/actions/workflows/check.yml/badge.svg)](https://github.com/RajeshwariNavalur/M1_DCconverters-UTI-/actions/workflows/check.yml)
+
