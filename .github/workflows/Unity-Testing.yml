@@ -13,5 +13,5 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: make build_test
-      run: make -C 3_Implementation
+    - name: static analysis
+      run: cppcheck --enable=all 3_Implementation
